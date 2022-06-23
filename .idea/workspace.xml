@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5024ce7c-450e-4181-993d-07af90e36ab9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ck/controller/testController.java" afterDir="false" />
+    <list default="true" id="5024ce7c-450e-4181-993d-07af90e36ab9" name="Changes" comment="测试提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +63,23 @@
       <option name="presentableId" value="Default" />
       <updated>1655952491755</updated>
       <workItem from="1655952492945" duration="221000" />
-      <workItem from="1655952941418" duration="627000" />
+      <workItem from="1655952941418" duration="1168000" />
     </task>
+    <task id="LOCAL-00001" summary="测试提交">
+      <created>1655954622104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655954622104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试提交">
+      <created>1655954723350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655954723350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
   </component>
 </project>
