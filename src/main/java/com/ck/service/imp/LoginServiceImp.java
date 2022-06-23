@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LoginServiceImp implements LoginService {
+
     @Override
     public String login(LoginRequest loginRequest) {
         StpUtil.login(1);
