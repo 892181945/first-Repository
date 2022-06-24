@@ -26,4 +26,15 @@ public class loginController {
         String login = loginService.login(loginRequest);
         return CommodResponse.success(login);
     }
+
+    /**
+     * 并发测试
+     * @return
+     */
+    @RequestMapping(value = "concurrency",method = RequestMethod.POST)
+    public CommodResponse concurrency(){
+
+
+        return CommodResponse.success();
+    }
 }

@@ -9,4 +9,7 @@ public interface LoginService {
 
     public String login (LoginRequest loginRequest);
 
+
+    public String concurrency ();
+
 }

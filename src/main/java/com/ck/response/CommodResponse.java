@@ -29,6 +29,11 @@ public class CommodResponse<T> {
         this.data = data;
     }
 
+    public static <T> CommodResponse<T> success() {
+        return new CommodResponse<T>(200, "成功", null);
+    }
+
+
     /**
      * 成功返回结果
      *
