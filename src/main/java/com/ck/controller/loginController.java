@@ -31,9 +31,9 @@ public class loginController {
      * 并发测试
      * @return
      */
-    @RequestMapping(value = "concurrency",method = RequestMethod.POST)
+    @RequestMapping(value = "concurrency",method = RequestMethod.GET)
     public CommodResponse concurrency(){
-
+        loginService.concurrency();
 
         return CommodResponse.success();
     }
