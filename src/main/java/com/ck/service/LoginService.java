@@ -12,4 +12,6 @@ public interface LoginService {
 
     public String concurrency ();
 
+    public String redisConcurrency ();
+
 }

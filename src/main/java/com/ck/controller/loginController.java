@@ -28,12 +28,23 @@ public class loginController {
     }
 
     /**
-     * 并发测试
+     * 并发测试lock锁
      * @return
      */
     @RequestMapping(value = "concurrency",method = RequestMethod.GET)
     public CommodResponse concurrency(){
         loginService.concurrency();
+
+        return CommodResponse.success();
+    }
+
+    /**
+     * 并发测试redis锁
+     * @return
+     */
+    @RequestMapping(value = "redisConcurrency",method = RequestMethod.GET)
+    public CommodResponse redisConcurrency(){
+        loginService.redisConcurrency();
 
         return CommodResponse.success();
     }
